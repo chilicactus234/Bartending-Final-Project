@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://c0we2fmsqjnm8"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_3ensh"]
+
+[resource]
+script = ExtResource("1_3ensh")
+recipe_key = "spritz"
+drink_name = "Spritz"
+dialogue_key = "spritz_order"
+ingredients = {
+"aperol": 60.0,
+"prosecco": 90.0,
+"soda_water": 15.0
+}
+required_steps = Array[String](["stir"])
+glass_type = "wine_glass"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 4.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://oufu0jp1rxhv"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_f1fl8"]
+
+[resource]
+script = ExtResource("1_f1fl8")
+recipe_key = "cosmopolitan"
+drink_name = "Cosmopolitan"
+dialogue_key = "cosmopolitan_order"
+ingredients = {
+"cointreau": 15.0,
+"cranberry_juice": 30.0,
+"lime_juice": 15.0,
+"vodka_citron": 40.0
+}
+required_steps = Array[String](["shake", "strain"])
+garnish = "lemon_twist"
+glass_type = "cocktail"
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

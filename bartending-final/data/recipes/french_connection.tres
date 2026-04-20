@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://ff767ms8ulmv"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_cxmj3"]
+
+[resource]
+script = ExtResource("1_cxmj3")
+recipe_key = "french_connection"
+drink_name = "French Connection"
+dialogue_key = "french_connection_order"
+ingredients = {
+"amaretto": 35.0,
+"cognac": 35.0
+}
+required_steps = Array[String](["stir"])
+glass_type = "old_fashioned"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+price = 10.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

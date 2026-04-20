@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bubdefpcnjx25"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_fqo3b"]
+
+[resource]
+script = ExtResource("1_fqo3b")
+recipe_key = "champagne_cocktail"
+drink_name = "Champagne Cocktail"
+dialogue_key = "champagne_cocktail_order"
+ingredients = {
+"angostura_bitters": 1.2,
+"champagne": 90.0,
+"cognac": 10.0,
+"sugar_cube": 1.0
+}
+required_steps = Array[String](["stir"])
+garnish = "lemon_zest"
+glass_type = "champagne"
+base_tip = 7.0
+price = 14.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

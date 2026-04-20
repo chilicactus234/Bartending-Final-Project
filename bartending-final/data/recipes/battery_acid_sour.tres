@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://dswm4b278w150"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_5lrm3"]
+
+[resource]
+script = ExtResource("1_5lrm3")
+recipe_key = "battery_acid_sour"
+drink_name = "Battery Acid Sour"
+dialogue_key = "battery_acid_sour_order"
+ingredients = {
+"battery_acid": 45.0,
+"coolant": 20.0,
+"wd40": 15.0
+}
+required_steps = Array[String](["shake", "strain"])
+garnish = "batteries"
+glass_type = "rocks"
+base_tip = 15.0
+price = 0.0
+explicit_name = false
+metadata/_custom_type_script = "uid://uc7d24bnehp"

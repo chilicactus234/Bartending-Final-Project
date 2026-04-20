@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyshdlijofgai"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1ai8r"]
+load_path = "res://.godot/imported/bartender_v1.png-eaf7d41a0779f9082e6b46fc4361393e.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kqol2"]
+size = Vector2(35, 88)
+
+[node name="Bar Scene" type="Node2D"]
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="Player"]
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+texture_filter = 1
+position = Vector2(-2, -59)
+texture = SubResource("CompressedTexture2D_1ai8r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(-1.5, -23)
+shape = SubResource("RectangleShape2D_kqol2")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]

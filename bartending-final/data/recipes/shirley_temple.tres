@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://c5fnlhv5hbi64"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_p601y"]
+
+[resource]
+script = ExtResource("1_p601y")
+recipe_key = "shirley_temple"
+drink_name = "Shirley Temple"
+dialogue_key = "shirley_temple_order"
+ingredients = {
+"ginger_ale": 200.0
+}
+garnish = "cherry"
+glass_type = "highball"
+ingredient_weight = 0.75
+step_weight = 0.0
+base_tip = 4.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

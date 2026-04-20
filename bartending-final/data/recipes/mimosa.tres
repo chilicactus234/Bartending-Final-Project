@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://jxybgcdhx0gl"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_d36f6"]
+
+[resource]
+script = ExtResource("1_d36f6")
+recipe_key = "mimosa"
+drink_name = "Mimosa"
+dialogue_key = "mimosa_order"
+ingredients = {
+"orange_juice": 75.0,
+"prosecco": 75.0
+}
+required_steps = Array[String](["stir"])
+glass_type = "flute"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 4.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bck6i6nqsas1k"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_2abfd"]
+
+[resource]
+script = ExtResource("1_2abfd")
+recipe_key = "black_russian"
+drink_name = "Black Russian"
+dialogue_key = "black_russian_order"
+ingredients = {
+"coffee_liqueur": 20.0,
+"vodka": 50.0
+}
+required_steps = Array[String]([""])
+ingredient_weight = 0.65
+step_weight = 0.0
+price = 9.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://cm035ufek6umb"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_tp6su"]
+
+[resource]
+script = ExtResource("1_tp6su")
+recipe_key = "tap_beer"
+drink_name = "Tap Beer"
+dialogue_key = "tap_beer_order"
+ingredients = {
+"beer": 500.0
+}
+required_steps = Array[String](["tap_pour"])
+glass_type = "beer_mug"
+ingredient_weight = 0.65
+step_weight = 0.35
+glass_weight = 0.0
+garnish_weight = 0.0
+base_tip = 2.0
+price = 6.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

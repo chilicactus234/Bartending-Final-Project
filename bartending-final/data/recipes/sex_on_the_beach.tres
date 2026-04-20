@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://cqmu6cvn6v8yy"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_a2qip"]
+
+[resource]
+script = ExtResource("1_a2qip")
+recipe_key = "sex_on_the_beach"
+drink_name = "Sex on the Beach"
+dialogue_key = "sex_on_the_beach_order"
+ingredients = {
+"cranberry_juice": 40.0,
+"orange_juice": 40.0,
+"peach_schnapps": 20.0,
+"vodka": 40.0
+}
+required_steps = Array[String](["stir"])
+glass_type = "highball"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+price = 9.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

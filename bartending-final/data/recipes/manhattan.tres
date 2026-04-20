@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bif50lw0h75lh"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_ffs28"]
+
+[resource]
+script = ExtResource("1_ffs28")
+recipe_key = "manhattan"
+drink_name = "Manhattan"
+dialogue_key = "manhattan_order"
+ingredients = {
+"angostura_bitters": 0.6,
+"rye_whiskey": 50.0,
+"sweet_red_vermouth": 20.0
+}
+required_steps = Array[String](["stir", "strain"])
+garnish = "cherry"
+glass_type = "martini"
+base_tip = 7.0
+price = 13.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bi1vlhyya12w1"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_el5gk"]
+
+[resource]
+script = ExtResource("1_el5gk")
+recipe_key = "whiskey_sour"
+drink_name = "Whiskey Sour"
+dialogue_key = "whiskey_sour_order"
+ingredients = {
+"bourbon": 45.0,
+"lemon_juice": 25.0,
+"simple_syrup": 20.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "rocks"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+price = 10.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

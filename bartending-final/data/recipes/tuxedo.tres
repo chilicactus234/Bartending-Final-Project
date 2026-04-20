@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://gbp6hl1ly7oe"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_x4vno"]
+
+[resource]
+script = ExtResource("1_x4vno")
+recipe_key = "tuxedo"
+drink_name = "Tuxedo"
+dialogue_key = "tuxedo_order"
+ingredients = {
+"absinthe": 0.25,
+"dry_vermouth": 30.0,
+"maraschino_luxardo": 0.6,
+"old_tom_gin": 30.0,
+"orange_bitters": 1.8
+}
+required_steps = Array[String](["stir", "strain"])
+glass_type = "martini"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 7.0
+price = 14.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

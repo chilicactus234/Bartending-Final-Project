@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://co2nam6rghiqx"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_8vgui"]
+
+[resource]
+script = ExtResource("1_8vgui")
+recipe_key = "french_martini"
+drink_name = "French Martini"
+dialogue_key = "french_martini_order"
+ingredients = {
+"pineapple_juice": 15.0,
+"raspberry_liqueur": 15.0,
+"vodka": 45.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "martini"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

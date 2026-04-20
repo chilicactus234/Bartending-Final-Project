@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://dva7o0m7sasew"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_1oo6u"]
+
+[resource]
+script = ExtResource("1_1oo6u")
+recipe_key = "monkey_gland"
+drink_name = "Monkey Gland"
+dialogue_key = "monkey_gland_order"
+ingredients = {
+"absinthe": 15.0,
+"dry_gin": 45.0,
+"grenadine": 15.0,
+"orange_juice": 45.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "cocktail"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

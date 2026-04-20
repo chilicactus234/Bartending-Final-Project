@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://cvuqoq6u0p60d"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_p6p4g"]
+
+[resource]
+script = ExtResource("1_p6p4g")
+recipe_key = "pina_colada"
+drink_name = "Pina Colada"
+dialogue_key = "pina_colada_order"
+ingredients = {
+"coconut_cream": 30.0,
+"pineapple_juice": 50.0,
+"white_rum": 50.0
+}
+required_steps = Array[String](["blend"])
+garnish = "pineapple_slice"
+glass_type = "poco_grande"
+price = 10.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

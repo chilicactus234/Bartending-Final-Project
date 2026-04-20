@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://8mbd8o7mndv2"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_4kpla"]
+
+[resource]
+script = ExtResource("1_4kpla")
+recipe_key = "mojito"
+drink_name = "Mojito"
+dialogue_key = "mojito_order"
+ingredients = {
+"lime_juice": 20.0,
+"mint_leaves": 6.0,
+"soda_water": 0.6,
+"sugar": 2.0,
+"white_cuban_ron": 45.0
+}
+required_steps = Array[String](["stir"])
+garnish = "lime"
+glass_type = "collins"
+price = 9.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

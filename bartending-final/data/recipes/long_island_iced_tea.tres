@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://gkggq3f5dq2n"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_ul5dc"]
+
+[resource]
+script = ExtResource("1_ul5dc")
+recipe_key = "long_island_iced_tea"
+drink_name = "Long Island Iced Tea"
+dialogue_key = "long_island_iced_tea_order"
+ingredients = {
+"cointreau": 15.0,
+"cola": 0.6,
+"gin": 15.0,
+"lemon_juice": 25.0,
+"simple_syrup": 30.0,
+"tequila": 15.0,
+"vodka": 15.0,
+"white_rum": 15.0
+}
+required_steps = Array[String](["stir"])
+glass_type = "highball"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 6.0
+price = 12.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

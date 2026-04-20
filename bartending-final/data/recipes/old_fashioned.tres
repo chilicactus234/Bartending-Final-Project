@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://cjahx1t15f2rx"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_3t4cq"]
+
+[resource]
+script = ExtResource("1_3t4cq")
+recipe_key = "old_fashioned"
+drink_name = "Old Fashioned"
+dialogue_key = "old_fashioned_order"
+ingredients = {
+"angostura_bitters": 1.2,
+"bourbon": 45.0,
+"sugar_cube": 1.0,
+"water": 1.2
+}
+required_steps = Array[String](["muddle", "stir"])
+garnish = "orange_slice"
+glass_type = "old_fashioned"
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

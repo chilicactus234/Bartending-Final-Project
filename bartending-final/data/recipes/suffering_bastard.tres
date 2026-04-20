@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://5lk4lhx01sp2"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_d3oay"]
+
+[resource]
+script = ExtResource("1_d3oay")
+recipe_key = "suffering_bastard"
+drink_name = "Suffering Bastard"
+dialogue_key = "suffering_bastard_order"
+ingredients = {
+"angostura_bitters": 1.2,
+"brandy": 30.0,
+"gin": 30.0,
+"ginger_beer": 0.6,
+"lime_juice": 15.0
+}
+required_steps = Array[String](["shake", "strain", "top_ginger_beer"])
+glass_type = "collins"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

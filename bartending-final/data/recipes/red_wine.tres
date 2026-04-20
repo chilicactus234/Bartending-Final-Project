@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bmyaoxootjq70"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_2q6hs"]
+
+[resource]
+script = ExtResource("1_2q6hs")
+recipe_key = "red_wine"
+drink_name = "Red Wine"
+dialogue_key = "red_wine_order"
+ingredients = {
+"red_wine": 150.0
+}
+glass_type = "wine_glass"
+ingredient_weight = 0.65
+step_weight = 0.35
+glass_weight = 0.0
+garnish_weight = 0.0
+base_tip = 3.0
+price = 7.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

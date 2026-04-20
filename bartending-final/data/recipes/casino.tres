@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bi37kldwlio0o"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_xwnjr"]
+
+[resource]
+script = ExtResource("1_xwnjr")
+recipe_key = "casino"
+drink_name = "Casino"
+dialogue_key = "casino_order"
+ingredients = {
+"lemon_juice": 10.0,
+"maraschino_luxardo": 10.0,
+"old_tom_gin": 40.0,
+"orange_bitters": 1.2
+}
+required_steps = Array[String](["shake", "strain"])
+garnish = "lemon_zest"
+glass_type = "rocks"
+base_tip = 6.0
+price = 12.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

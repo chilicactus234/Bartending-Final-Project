@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://lgancudb2l7v"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_t4y5v"]
+
+[resource]
+script = ExtResource("1_t4y5v")
+recipe_key = "lemon_drop_martini"
+drink_name = "Lemon Drop Martini"
+dialogue_key = "lemon_drop_martini_order"
+ingredients = {
+"lemon_juice": 15.0,
+"triple_sec": 20.0,
+"vodka": 30.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "martini"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+price = 10.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

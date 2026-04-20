@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://br7bbt8cuakdt"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_232cj"]
+
+[resource]
+script = ExtResource("1_232cj")
+recipe_key = "porn_star_martini"
+drink_name = "Porn Star Martini"
+dialogue_key = "porn_star_martini_order"
+ingredients = {
+"champagne": 30.0,
+"passion_fruit_liqueur": 20.0,
+"passion_fruit_puree": 50.0,
+"vanilla_sugar": 2.0,
+"vanilla_vodka": 50.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "martini"
+secondary_glass_type = "shot"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 7.0
+price = 13.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

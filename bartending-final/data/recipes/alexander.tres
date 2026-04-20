@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://c6hu1ktg84koq"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_0hq10"]
+
+[resource]
+script = ExtResource("1_0hq10")
+recipe_key = "alexander"
+drink_name = "Alexander"
+dialogue_key = "alexander_order"
+ingredients = {
+"chocolate_liqueur": 30.0,
+"cognac": 30.0,
+"fresh_cream": 30.0
+}
+required_steps = Array[String](["shake", "strain"])
+garnish = "nutmeg"
+glass_type = "coupe"
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

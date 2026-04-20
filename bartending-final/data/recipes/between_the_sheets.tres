@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://cl2cadyurwi3n"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_giku7"]
+
+[resource]
+script = ExtResource("1_giku7")
+recipe_key = "between_the_sheets"
+drink_name = "Between the Sheets"
+dialogue_key = "between_the_sheets_order"
+ingredients = {
+"cognac": 30.0,
+"lemon_juice": 20.0,
+"triple_sec": 30.0,
+"white_rum": 30.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "cocktail"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

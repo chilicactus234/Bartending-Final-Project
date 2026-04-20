@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://dpe6ia6uppqir"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_rtkt6"]
+
+[resource]
+script = ExtResource("1_rtkt6")
+recipe_key = "clover_club"
+drink_name = "Clover Club"
+dialogue_key = "clover_club_order"
+ingredients = {
+"gin": 45.0,
+"lemon_juice": 15.0,
+"raspberry_syrup": 15.0
+}
+required_steps = Array[String](["shake", "strain"])
+garnish = "raspberries"
+glass_type = "cocktail"
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

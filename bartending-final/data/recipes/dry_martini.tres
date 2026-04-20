@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://dt3yfrtjlojql"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_3x805"]
+
+[resource]
+script = ExtResource("1_3x805")
+recipe_key = "dry_martini"
+drink_name = "Dry Martini"
+dialogue_key = "dry_martini_order"
+ingredients = {
+"dry_vermouth": 10.0,
+"gin": 60.0
+}
+required_steps = Array[String](["stir", "strain"])
+garnish = "green_olives"
+glass_type = "martini"
+base_tip = 7.0
+price = 13.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

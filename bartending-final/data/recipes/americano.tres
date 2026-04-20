@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://dif3y8cqkyx5a"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_br3m2"]
+
+[resource]
+script = ExtResource("1_br3m2")
+recipe_key = "americano"
+drink_name = "Americano"
+dialogue_key = "americano_order"
+ingredients = {
+"campari": 30.0,
+"red_vermouth": 15.0,
+"soda_water": 15.0
+}
+garnish = "orange_slice"
+glass_type = "old_fashioned"
+ingredient_weight = 0.75
+step_weight = 0.0
+base_tip = 4.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

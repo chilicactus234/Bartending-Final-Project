@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bayfkywjumal5"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_lpieo"]
+
+[resource]
+script = ExtResource("1_lpieo")
+recipe_key = "illegal"
+drink_name = "Illegal"
+dialogue_key = "illegal_order"
+ingredients = {
+"espadin_mezcal": 30.0,
+"falernum": 15.0,
+"lime_juice": 20.0,
+"maraschino_luxardo": 0.6,
+"simple_syrup": 15.0,
+"white_rum": 15.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "mug"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 7.0
+price = 13.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://cldydb03h36mq"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_m2kkb"]
+
+[resource]
+script = ExtResource("1_m2kkb")
+recipe_key = "bloody_mary"
+drink_name = "Bloody Mary"
+dialogue_key = "bloody_mary_order"
+ingredients = {
+"lemon_juice": 15.0,
+"tabasco": 0.6,
+"tomato_juice": 90.0,
+"vodka": 45.0,
+"worcestershire_sauce": 1.2
+}
+required_steps = Array[String](["stir", "strain"])
+garnish = "celery"
+glass_type = "rocks"
+price = 10.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://cerbk25w1mkcm"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_s1hxu"]
+
+[resource]
+script = ExtResource("1_s1hxu")
+recipe_key = "margarita"
+drink_name = "Margarita"
+dialogue_key = "margarita_order"
+ingredients = {
+"lime_juice": 15.0,
+"tequila": 50.0,
+"triple_sec": 20.0
+}
+required_steps = Array[String](["shake", "strain"])
+garnish = "salt"
+glass_type = "margarita"
+price = 10.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

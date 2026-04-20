@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bxgprrlgaq7a6"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_7m5ay"]
+
+[resource]
+script = ExtResource("1_7m5ay")
+recipe_key = "motor_oil_cocktail"
+drink_name = "Motor Oil Cocktail"
+dialogue_key = "motor_oil_cocktail_order"
+ingredients = {
+"motor_oil": 30.0,
+"nails": 5.0,
+"transmission_fluid": 20.0
+}
+required_steps = Array[String](["shake", "strain"])
+garnish = "spark_plug"
+glass_type = "cocktail"
+base_tip = 12.0
+price = 0.0
+explicit_name = false
+metadata/_custom_type_script = "uid://uc7d24bnehp"

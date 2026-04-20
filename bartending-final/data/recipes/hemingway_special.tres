@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://cp1scjrdpntdl"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_0kk3r"]
+
+[resource]
+script = ExtResource("1_0kk3r")
+recipe_key = "hemingway_special"
+drink_name = "Hemingway Special"
+dialogue_key = "hemingway_special_order"
+ingredients = {
+"grapefuit_juice": 40.0,
+"lime_juice": 15.0,
+"maraschino_luxardo": 15.0,
+"rum": 60.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "coupe"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 6.0
+price = 11.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

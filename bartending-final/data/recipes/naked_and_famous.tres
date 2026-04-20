@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://bnm7krf8arwmy"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_xu1v2"]
+
+[resource]
+script = ExtResource("1_xu1v2")
+recipe_key = "naked_and_famous"
+drink_name = "Naked and Famous"
+dialogue_key = "naked_and_famous_order"
+ingredients = {
+"aperol": 20.0,
+"mezcal": 20.0,
+"yellow_chartreuse": 20.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "cocktail"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 7.0
+price = 13.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

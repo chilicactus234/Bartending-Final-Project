@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://b1a0f1fmp48v5"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_vkn3l"]
+
+[resource]
+script = ExtResource("1_vkn3l")
+recipe_key = "grasshopper"
+drink_name = "Grasshopper"
+dialogue_key = "grasshopper_order"
+ingredients = {
+"fresh_cream": 20.0,
+"green_mint_liqueur": 20.0,
+"white_chocolate_liqueur": 20.0
+}
+required_steps = Array[String](["shake", "strain"])
+garnish = "mint_leaf"
+glass_type = "coupe"
+price = 10.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

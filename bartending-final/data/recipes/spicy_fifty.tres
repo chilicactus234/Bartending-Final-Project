@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="DrinkRecipe" load_steps=2 format=3 uid="uid://dys5f2t4jc0"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_v8ayg"]
+
+[resource]
+script = ExtResource("1_v8ayg")
+recipe_key = "spicy_fifty"
+drink_name = "Spicy Fifty"
+dialogue_key = "spicy_fifty_order"
+ingredients = {
+"elderflower_cordial": 15.0,
+"honey syrup": 15.0,
+"lime_juice": 15.0,
+"red_chili_pepper": 2.0,
+"vodka_vanilla": 50.0
+}
+required_steps = Array[String](["shake", "strain"])
+glass_type = "cocktail"
+ingredient_weight = 0.65
+garnish_weight = 0.0
+base_tip = 7.0
+price = 13.0
+metadata/_custom_type_script = "uid://uc7d24bnehp"

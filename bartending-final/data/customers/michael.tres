@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="CustomerData" load_steps=5 format=3 uid="uid://0powwgrdnkhw"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_w44go"]
+[ext_resource type="Script" uid="uid://c5jnudnr1j8eu" path="res://scripts/resources/customer_data.gd" id="2_0bj7k"]
+[ext_resource type="Resource" uid="uid://c5fnlhv5hbi64" path="res://data/recipes/shirley_temple.tres" id="2_3twlu"]
+[ext_resource type="Resource" uid="uid://cjahx1t15f2rx" path="res://data/recipes/old_fashioned.tres" id="3_rhkaa"]
+
+[resource]
+script = ExtResource("2_0bj7k")
+customer_key = "michael"
+customer_name = "M.I.C.H.A.E.L"
+portrait_key = "michael_robot"
+possible_orders = Array[ExtResource("1_w44go")]([ExtResource("2_3twlu"), ExtResource("3_rhkaa")])
+patience = 150.0
+tip_multiplier = 1.2
+walk_speed = 65.0
+personality_notes = "Pretends to be a robot until questioned. "
+greeting_key = "michael_greeting"
+satisfied_key = "michael_satisfied"
+disappointed_key = "michael_disappointed"
+leaving_angry_key = "michael_leaving_angry"
+metadata/_custom_type_script = "uid://c5jnudnr1j8eu"

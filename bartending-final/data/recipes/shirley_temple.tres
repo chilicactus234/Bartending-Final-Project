@@ -8,11 +8,12 @@ recipe_key = "shirley_temple"
 drink_name = "Shirley Temple"
 dialogue_key = "shirley_temple_order"
 ingredients = {
-"ginger_ale": 200.0
+"ginger_ale": 200.0,
+"grenadine": 15.0,
+"orange_juice": 30.0
 }
+required_steps = Array[String](["stir"])
 garnish = "cherry"
 glass_type = "highball"
-ingredient_weight = 0.75
-step_weight = 0.0
 base_tip = 4.0
 metadata/_custom_type_script = "uid://uc7d24bnehp"

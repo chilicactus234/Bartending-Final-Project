@@ -11,5 +11,13 @@ config_version=5
 [application]
 
 config/name="Bartending Final"
+run/main_scene="uid://cyshdlijofgai"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameState="*res://scripts/autoloads/game_state.gd"
+ScoreManager="*res://scripts/autoloads/score_manager.gd"
+DragController="*res://scripts/autoloads/drag_controller.gd"
+JiggerController="*res://scripts/autoloads/jigger_controller.gd"

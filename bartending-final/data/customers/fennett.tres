@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="CustomerData" load_steps=3 format=3 uid="uid://cx1hg5gth1mqm"]
+
+[ext_resource type="Script" uid="uid://uc7d24bnehp" path="res://scripts/resources/drink_recipe.gd" id="1_7ipkv"]
+[ext_resource type="Script" uid="uid://c5jnudnr1j8eu" path="res://scripts/resources/customer_data.gd" id="2_f16qg"]
+
+[resource]
+script = ExtResource("2_f16qg")
+customer_key = "fennett"
+customer_name = "Fennett Boddy"
+portrait_key = "fennett_neutral"
+order_style = "vague"
+always_orders = "suffering_bastard"
+patience = 999.0
+tip_multiplier = 3.0
+walk_speed = 75.0
+accepts_multiple_attempts = true
+greeting_key = "fennett_greeting"
+satisfied_key = "fennett_satisfied"
+disappointed_key = "fennett_wrong_drink"
+leaving_angry_key = "fennett_leaving_angry"
+metadata/_custom_type_script = "uid://c5jnudnr1j8eu"

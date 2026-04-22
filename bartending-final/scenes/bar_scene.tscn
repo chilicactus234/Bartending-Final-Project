@@ -1,4 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://cyshdlijofgai"]
+[gd_scene load_steps=5 format=3 uid="uid://cyshdlijofgai"]
+
+[ext_resource type="PackedScene" uid="uid://lil0qvgmtj0y" path="res://scenes/test_scene.tscn" id="1_kqol2"]
+[ext_resource type="Script" uid="uid://g4ejdr0lranu" path="res://scenes/test_scene.gd" id="2_3b272"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1ai8r"]
 load_path = "res://.godot/imported/bartender_v1.png-eaf7d41a0779f9082e6b46fc4361393e.ctex"
@@ -24,3 +27,6 @@ position = Vector2(-1.5, -23)
 shape = SubResource("RectangleShape2D_kqol2")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="Test Scene" parent="." instance=ExtResource("1_kqol2")]
+script = ExtResource("2_3b272")

@@ -37,7 +37,7 @@ extends Resource
 # ShiftManager will filter spawn pool by this number
 @export var personality_notes: String = ""
 # optional does not show in game
-
+@export var accepts_multiple_attempts: bool = false
 # --- Dialogue Stuff ---
 @export var greeting_key: String = ""
 # played when customer first sits down

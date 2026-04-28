@@ -14,6 +14,6 @@ ingredients = {
 }
 required_steps = Array[String](["shake", "strain"])
 garnish = "salt"
-glass_type = "margarita"
+glass_type = "coupe"
 price = 10.0
 metadata/_custom_type_script = "uid://uc7d24bnehp"

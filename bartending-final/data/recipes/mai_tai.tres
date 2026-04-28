@@ -9,10 +9,10 @@ drink_name = "Mai Tai"
 dialogue_key = "mai_tai_order"
 ingredients = {
 "lime_juice": 30.0,
-"orange_curacao": 15.0,
 "orgeat_syrup": 15.0,
 "rum": 60.0,
-"simple_syrup": 7.5
+"simple_syrup": 7.5,
+"triple_sec": 15.0
 }
 required_steps = Array[String](["shake", "strain"])
 garnish = "pineapple_slice"

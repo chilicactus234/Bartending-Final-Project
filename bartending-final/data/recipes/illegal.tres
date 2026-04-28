@@ -8,10 +8,10 @@ recipe_key = "illegal"
 drink_name = "Illegal"
 dialogue_key = "illegal_order"
 ingredients = {
-"espadin_mezcal": 30.0,
 "falernum": 15.0,
 "lime_juice": 20.0,
 "maraschino_luxardo": 0.6,
+"mezcal": 30.0,
 "simple_syrup": 15.0,
 "white_rum": 15.0
 }

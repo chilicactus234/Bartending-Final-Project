@@ -10,7 +10,7 @@ dialogue_key = "daiquiri_order"
 ingredients = {
 "lime_juice": 20.0,
 "sugar": 2.0,
-"white_cuban_ron": 60.0
+"white_rum": 60.0
 }
 required_steps = Array[String](["shake", "strain"])
 glass_type = "coupe"

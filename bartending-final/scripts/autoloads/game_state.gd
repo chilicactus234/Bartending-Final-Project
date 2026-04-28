@@ -24,7 +24,7 @@ var unlocked_customers: Array[String] = [
 
 signal shift_advanced(new_shift_number: int)
 signal unlock_gained(type: String, key: String)
-signal game_completed
+#signal game_completed
 
 func add_earnings(amount: float) -> void:
 	total_earnings += amount

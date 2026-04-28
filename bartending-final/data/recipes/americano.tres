@@ -9,7 +9,6 @@ drink_name = "Americano"
 dialogue_key = "americano_order"
 ingredients = {
 "campari": 30.0,
-"red_vermouth": 15.0,
 "soda_water": 15.0
 }
 garnish = "orange_slice"

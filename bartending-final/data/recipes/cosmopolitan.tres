@@ -11,7 +11,7 @@ ingredients = {
 "cointreau": 15.0,
 "cranberry_juice": 30.0,
 "lime_juice": 15.0,
-"vodka_citron": 40.0
+"vodka": 40.0
 }
 required_steps = Array[String](["shake", "strain"])
 garnish = "lemon_twist"

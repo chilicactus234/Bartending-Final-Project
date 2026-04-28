@@ -8,9 +8,9 @@ recipe_key = "casino"
 drink_name = "Casino"
 dialogue_key = "casino_order"
 ingredients = {
+"gin": 40.0,
 "lemon_juice": 10.0,
 "maraschino_luxardo": 10.0,
-"old_tom_gin": 40.0,
 "orange_bitters": 1.2
 }
 required_steps = Array[String](["shake", "strain"])

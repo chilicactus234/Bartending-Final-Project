@@ -15,7 +15,7 @@ ingredients = {
 }
 required_steps = Array[String](["stir"])
 garnish = "lemon_zest"
-glass_type = "champagne"
+glass_type = "flute"
 base_tip = 7.0
 price = 14.0
 metadata/_custom_type_script = "uid://uc7d24bnehp"

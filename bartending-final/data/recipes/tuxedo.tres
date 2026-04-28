@@ -10,8 +10,8 @@ dialogue_key = "tuxedo_order"
 ingredients = {
 "absinthe": 0.25,
 "dry_vermouth": 30.0,
+"gin": 30.0,
 "maraschino_luxardo": 0.6,
-"old_tom_gin": 30.0,
 "orange_bitters": 1.8
 }
 required_steps = Array[String](["stir", "strain"])

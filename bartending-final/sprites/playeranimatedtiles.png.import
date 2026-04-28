@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3y042mc8xbf6"
-path="res://.godot/imported/bartender_v1.png-eaf7d41a0779f9082e6b46fc4361393e.ctex"
+uid="uid://nfyi8m24ip14"
+path="res://.godot/imported/playeranimatedtiles.png-1e938ab62b78ab3b24f6886193a23f50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bartender_v1.png"
-dest_files=["res://.godot/imported/bartender_v1.png-eaf7d41a0779f9082e6b46fc4361393e.ctex"]
+source_file="res://sprites/playeranimatedtiles.png"
+dest_files=["res://.godot/imported/playeranimatedtiles.png-1e938ab62b78ab3b24f6886193a23f50.ctex"]
 
 [params]
 

@@ -12,7 +12,7 @@ ingredients = {
 "honey syrup": 15.0,
 "lime_juice": 15.0,
 "red_chili_pepper": 2.0,
-"vodka_vanilla": 50.0
+"vanilla_vodka": 50.0
 }
 required_steps = Array[String](["shake", "strain"])
 glass_type = "cocktail"

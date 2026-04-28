@@ -23,3 +23,7 @@ DragController="*res://scripts/autoloads/drag_controller.gd"
 JiggerController="*res://scripts/autoloads/jigger_controller.gd"
 QuestManager="*res://scripts/autoloads/quest_manager.gd"
 DialogueSystem="*res://scripts/autoloads/dialogue_system.gd"
+
+[display]
+
+window/stretch/mode="canvas_items"

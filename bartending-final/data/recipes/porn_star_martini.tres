@@ -11,7 +11,7 @@ ingredients = {
 "champagne": 30.0,
 "passion_fruit_liqueur": 20.0,
 "passion_fruit_puree": 50.0,
-"vanilla_sugar": 2.0,
+"sugar": 2.0,
 "vanilla_vodka": 50.0
 }
 required_steps = Array[String](["shake", "strain"])

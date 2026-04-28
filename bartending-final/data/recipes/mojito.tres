@@ -9,10 +9,9 @@ drink_name = "Mojito"
 dialogue_key = "mojito_order"
 ingredients = {
 "lime_juice": 20.0,
-"mint_leaves": 6.0,
 "soda_water": 0.6,
 "sugar": 2.0,
-"white_cuban_ron": 45.0
+"white_rum": 45.0
 }
 required_steps = Array[String](["stir"])
 garnish = "lime"

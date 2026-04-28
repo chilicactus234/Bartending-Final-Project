@@ -9,7 +9,7 @@ drink_name = "Monkey Gland"
 dialogue_key = "monkey_gland_order"
 ingredients = {
 "absinthe": 15.0,
-"dry_gin": 45.0,
+"gin": 45.0,
 "grenadine": 15.0,
 "orange_juice": 45.0
 }

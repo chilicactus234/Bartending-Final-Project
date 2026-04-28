@@ -8,7 +8,7 @@ recipe_key = "negroni"
 drink_name = "Negroni"
 dialogue_key = "negroni_order"
 ingredients = {
-"bitter_campari": 30.0,
+"campari": 30.0,
 "gin": 30.0,
 "sweet_red_vermouth": 30.0
 }

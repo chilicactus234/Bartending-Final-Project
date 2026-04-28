@@ -13,7 +13,7 @@ ingredients = {
 "irish_whiskey": 50.0
 }
 required_steps = Array[String](["brew_coffee"])
-glass_type = "irish_coffee"
+glass_type = "beer_mug"
 ingredient_weight = 0.65
 garnish_weight = 0.0
 price = 10.0

@@ -6,7 +6,7 @@ extends Area2D
 @onready var transfer_highlight: Sprite2D = $TransferHighlight
 @onready var serve_btn: TextureButton = $ServeButton
 @onready var step_list: VBoxContainer = $StepList
-@onready var audio: AudioStreamPlayer2D = $AudioStreamPlayer2D
+#@onready var audio: AudioStreamPlayer2D = $AudioStreamPlayer2D
 
 const SHAKER_TEXTURE = null
 # Replace null with preload("res://assets/sprites/shaker.png")
@@ -45,7 +45,7 @@ func _input_event(_viewport, event, _shape_idx) -> void:
 			_flash_warning()
 			return
 		JiggerController.pour(slot_index)
-		audio.play()
+		#audio.play()
 		_bounce()
 		return
 
@@ -58,7 +58,7 @@ func _input_event(_viewport, event, _shape_idx) -> void:
 			_start_stir_mode()
 			return
 		_station.apply_tool_to_slot(slot_index)
-		audio.play()
+		#audio.play()
 		return
 
 	# Case 3: awaiting shaker transfer
@@ -190,7 +190,7 @@ func _on_stir_completed(completed_slot: int) -> void:
 	_disconnect_stir_signals()
 	_station.stir_slot(slot_index)
 	_station.drop_tool()
-	audio.play()
+	#audio.play()
 	_play_stir_complete_flash()
 
 func _on_stir_cancelled() -> void:

@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 @onready var anim: AnimatedSprite2D = $AnimatedSprite2D
 
-var speed: float = 120.0
+var speed: float = 180.0
 var movement_locked: bool = false
 
 signal navigation_finished

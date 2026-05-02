@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=4 uid="uid://lil0qvgmtj0y"]
+[gd_scene load_steps=33 format=4 uid="uid://lil0qvgmtj0y"]
 
 [ext_resource type="Script" uid="uid://g4ejdr0lranu" path="res://scenes/test_scene.gd" id="1_qjeyg"]
 [ext_resource type="Texture2D" uid="uid://dicpwlv6co13a" path="res://assets/tiles/bartile.png" id="2_7ddre"]
@@ -16,6 +16,8 @@
 [ext_resource type="Texture2D" uid="uid://dix7hxpapuj87" path="res://sprites/jigger_frames.png" id="13_u0xbq"]
 [ext_resource type="Script" uid="uid://bvtgix4yxp26m" path="res://scripts/shaker.gd" id="14_pln1h"]
 [ext_resource type="Texture2D" uid="uid://wb1l6gfrnwcu" path="res://sprites/shaker.png" id="15_8gixj"]
+[ext_resource type="Script" uid="uid://bu6gph1bpq4n4" path="res://scripts/bottle.gd" id="16_hf2sn"]
+[ext_resource type="Texture2D" uid="uid://dpgfmkdnfm1p8" path="res://sprites/bottles.png" id="17_qq5q4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nd71p"]
 texture = ExtResource("2_7ddre")
@@ -103,6 +105,33 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_ap2hy"]
+atlas = ExtResource("17_qq5q4")
+region = Rect2(252, 0, 28, 46)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nlwlv"]
+atlas = ExtResource("17_qq5q4")
+region = Rect2(224, 0, 28, 46)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gah1j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ap2hy")
+}],
+"loop": true,
+"name": &"hover",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nlwlv")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
 [node name="Test Scene" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_qjeyg")
@@ -113,6 +142,7 @@ tile_map_data = PackedByteArray("AAD7/wIAAAAAAAAAAAD8/wIAAAAAAAAAAAD7/wEAAAAAAAA
 tile_set = SubResource("TileSet_qjeyg")
 
 [node name="Player" parent="." instance=ExtResource("2_nd71p")]
+visible = false
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
 navigation_polygon = SubResource("NavigationPolygon_3qnke")
@@ -237,6 +267,7 @@ offset_bottom = 3.0
 text = "Jigger"
 
 [node name="Shaker" type="Area2D" parent="CraftingStation"]
+visible = false
 script = ExtResource("14_pln1h")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="CraftingStation/Shaker"]
@@ -252,6 +283,31 @@ texture_filter = 1
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Cocktail Shaker"
+
+[node name="IngredientBottles" type="Node2D" parent="CraftingStation"]
+
+[node name="Spirits" type="Node2D" parent="CraftingStation/IngredientBottles"]
+
+[node name="Bourbon" type="Area2D" parent="CraftingStation/IngredientBottles/Spirits"]
+script = ExtResource("16_hf2sn")
+ingredient_id = "bourbon"
+ingredient_label = "Bourbon"
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="CraftingStation/IngredientBottles/Spirits/Bourbon"]
+polygon = PackedVector2Array(8, 19, -5, 19, -5, -3, -1, -3, -1, -4, 0, -4, 0, -5, -1, -5, -1, -7, 0, -7, 0, -15, 3, -15, 3, -7, 4, -7, 4, -5, 3, -5, 3, -4, 4, -4, 4, -3, 8, -3)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CraftingStation/IngredientBottles/Spirits/Bourbon"]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_gah1j")
+animation = &"idle"
+
+[node name="InfoPopup" type="Label" parent="CraftingStation/IngredientBottles/Spirits/Bourbon"]
+texture_filter = 1
+offset_left = 10.0
+offset_top = 9.0
+offset_right = 78.0
+offset_bottom = 32.0
+text = "Bourbon"
 
 [node name="StirLayer" type="CanvasLayer" parent="."]
 layer = 15

@@ -1410,6 +1410,7 @@ offset_bottom = -65.0
 text = "Bar Spoon"
 
 [node name="GlassShelf" type="Node2D" parent="CraftingStation"]
+visible = false
 
 [node name="Rocks" type="Area2D" parent="CraftingStation/GlassShelf"]
 visible = false

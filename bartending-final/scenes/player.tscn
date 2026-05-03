@@ -141,8 +141,8 @@ animations = [{
 "speed": 2.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qhqgy"]
-height = 116.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
+size = Vector2(36, 20)
 
 [node name="Player" type="CharacterBody2D"]
 texture_filter = 1
@@ -153,8 +153,8 @@ sprite_frames = SubResource("SpriteFrames_g2els")
 animation = &"idle_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 19)
-shape = SubResource("CapsuleShape2D_qhqgy")
+position = Vector2(0, 65)
+shape = SubResource("RectangleShape2D_g2els")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.5, 1.5)
